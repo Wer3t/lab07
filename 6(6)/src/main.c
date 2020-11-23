@@ -17,7 +17,8 @@
  * @date 22-nov-2020
  * @version 1.0
  */
-
+#include <iostream>
+#include <cstdlib>
 #include<stdio.h>
 int task(N);
 
@@ -49,11 +50,12 @@ int main(){
  * - Вивід на екран результату зрушення
  */
 int task(int N){
+    srand(time(0));
     int mas[N][N];
     int masr[N][N];
     for (int i=0;i<N;i++) {
     	for (int j=0;j<N;j++){
-        	mas[i][j] = i + j;
+        	mas[i][j] = rand()%100;
         	masr[i][j] = 0;
         }
     }
