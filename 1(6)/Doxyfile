@@ -1,7 +1,7 @@
 ## Common Project info
 PROJECT_NAME = "Лабораторна робота 07"
-PROJECT_BRIEF = "Реалізувати функцію, що визначає, скільки серед заданої послідовності чисел таких пар, у котрих перше число менше наступного"
-PROJECT_NUMBER = 7.1
+PROJECT_BRIEF = "Центрувати заданий рядок на площині із заданим заповнювачем."
+PROJECT_NUMBER = 7.1(6)
 
 ## output options
 OUTPUT_DIRECTORY = ./dist
